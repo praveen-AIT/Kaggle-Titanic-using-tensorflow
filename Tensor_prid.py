@@ -203,17 +203,4 @@ file = open("sub2.csv", 'w')
 for i in range(418):
 	file.write(str(test_df["PassengerId"][i]) + "," + str(y[i][0]) + "\n")
 
-file.close()	
-	
-	
-	
-	
-	
-	
-	
-
-
-
-
-
-
+file.close()
